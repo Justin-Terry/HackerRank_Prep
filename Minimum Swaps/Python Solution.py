@@ -17,7 +17,6 @@ def minimumSwaps(arr):
     values = {}
     for i in range(0, len(arr)):
         values[arr[i]] = i
-    print(values)
 
 
     numswaps = 0
